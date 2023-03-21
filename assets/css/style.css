@@ -507,6 +507,10 @@ nav ul li a {
     max-width: 19px;
 }
 
+.mw_346 {
+    max-width: 346px;
+}
+
 @media (max-width: 992px) {
     .navbar {
         display: flex;
@@ -531,10 +535,12 @@ nav ul li a {
         font-size: 30px;
         color: #FFFFFF;
     }
-.logout_btn{
-    width: 100%;
-    padding: 40px;
-}
+
+    .logout_btn {
+        width: 100%;
+        padding: 40px;
+    }
+
     .shownav {
         left: 0;
     }
@@ -668,4 +674,9 @@ nav ul li a {
     .box_para {
         font-size: 10px;
     }
+}
+@media (min-width:768px) {
+    .justify-content-end {
+            justify-content: end;
+        }
 }
