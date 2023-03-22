@@ -527,7 +527,6 @@ nav ul li a {
         justify-items: center;
         align-items: center;
         transition: all 300ms linear;
-        justify-content: space-evenly;
         z-index: 1;
     }
 
@@ -679,4 +678,7 @@ nav ul li a {
     .justify-content-end {
             justify-content: end;
         }
+    .mt_md_50{
+        margin-top: 50px;
+    }
 }
